@@ -14,5 +14,12 @@ function appendBulletItem(){
   $('.container').append(ul);
 
   // Loop through a list and append all the values to the DOM.
+  for( animals of myArray ){
+    console.log( animals );
+    $( '#myList' ).append(`
+      <li>` + animals +`</li>
+    `);
+  } // end for
+
 }
 

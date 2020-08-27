@@ -19,8 +19,8 @@ function incrementOnClick(){
   $( '#incrementButton' ).on( 'click', buttonClicker );
 }
 
-  function buttonClicker(){
-    counter++
-    console.log( counter );
-  } // end button
+function buttonClicker(){
+  counter++
+  console.log( counter );
+ } // end button
 
