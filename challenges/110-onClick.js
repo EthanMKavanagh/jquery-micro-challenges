@@ -14,4 +14,13 @@ function incrementOnClick(){
   let button = $('<button id="incrementButton">Click Me</button>');
   $('.container').append(button);
   // Log a number that gets bigger by one every time a button is clicked.
+  
+  
+  $( '#incrementButton' ).on( 'click', buttonClicker );
 }
+
+  function buttonClicker(){
+    counter++
+    console.log( counter );
+  } // end button
+
