@@ -15,4 +15,5 @@ function appendBulletItem(){
 
   // YOUR CODE HERE
   // Use jQuery to add third bullet item to list.
+  $( '#myList' ).append( '<li>third item</li>' );
 }
